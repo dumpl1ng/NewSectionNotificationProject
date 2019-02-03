@@ -1,0 +1,80 @@
+#background{
+    background-image: url("index_background.jpg");
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+#input_field {
+    background: white;
+    opacity:0.9;
+    filter:alpha(opacity=70);
+    position: absolute;
+    left: 470px;
+    top:200px;
+    width:300px;
+    height:300px;
+    border-radius: 8px;
+    z-index: 10;
+    font-size:1.5em;
+    font-family: Arial;
+    font-size:16px;
+}
+
+.text{
+    left: 20px;
+    position:absolute;
+}
+
+#email{
+    width: 250px;
+    left:20px;
+    position: relative;
+}
+
+#button{
+    width: 100px;
+    height:50px;
+    background-color: transparent;
+    color: #FFE4C4;
+    font-size:18px;
+    border-radius:8px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    position:absolute;
+    left: 20px;
+    top:200px;
+}
+
+#unsub{
+    width: 100px;
+    height:50px;
+    background-color: transparent;
+    color: #FFE4C4;
+    font-size:18px;
+    border-radius:8px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    position:absolute;
+    left: 170px;
+    top:200px;
+}
+
+#unsub:hover {
+    background-color: #FFFAF0; 
+    color: white;
+}
+
+#button:hover {
+    background-color: #FFFAF0; 
+    color: white;
+}
+
+#course_id{
+    width:250px;
+    position: absolute;
+    left:20px;
+}
